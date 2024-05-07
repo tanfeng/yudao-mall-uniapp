@@ -1,6 +1,6 @@
 {
-  "name": "芋道商城",
-  "appid": "__UNI__460BC4C",
+  "name": "payerclub",
+  "appid": "__UNI__2C0537B",
   "description": "基于 uni-app + Vue3 技术驱动的在线商城系统，内含诸多功能与丰富的活动，期待您的使用和反馈。",
   "versionName": "1.8.3",
   "versionCode": 183,
@@ -185,7 +185,7 @@
     "versionCode": 100
   },
   "mp-weixin": {
-    "appid": "wx63c280fe3248a3e7",
+    "appid": "wxd521a4e3522e50f0",
     "setting": {
       "urlCheck": false,
       "minified": true,

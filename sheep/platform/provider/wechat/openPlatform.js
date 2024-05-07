@@ -16,19 +16,20 @@ const login = () => {
     });
     debugger
     if (loginRes.errMsg == 'login:ok') {
-      const res = await third.wechat.login({
-        platform: 'openPlatform',
-        shareInfo: uni.getStorageSync('shareLog') || {},
-        payload: encodeURIComponent(
-          JSON.stringify({
-            code: loginRes.code,
-          }),
-        ),
-      });
+      // const res = await third.wechat.login({
+        // platform: 'openPlatform',
+        // shareInfo: uni.getStorageSync('shareLog') || {},
+        // payload: encodeURIComponent(
+          // JSON.stringify({
+            // code: loginRes.code,
+          // }),
+        // ),
+      // });
 
-      if (res.error === 0) {
-        resolve(true);
-      }
+      // if (res.error === 0) {
+        // resolve(true);
+      // }
+	  resolve(true);
     } else {
       uni.showToast({
         icon: 'none',
