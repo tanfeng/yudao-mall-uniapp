@@ -13,7 +13,7 @@
           </view>
           <view v-if="item.goods_num" class="num ss-m-b-10"> 数量：{{ item.goods_num }} </view>
           <view class="ss-flex ss-row-between ss-m-t-8">
-            <span class="price">￥{{ item.goods_price }}</span>
+            <span class="price">${{ item.goods_price }}</span>
             <span class="status">{{ orderData.status_text }}</span>
           </view>
         </view>
@@ -28,7 +28,7 @@
           </view>
           <view class="order-total ss-flex ss-row-between ss-m-t-8">
             <span>共{{ orderData.items.length }}件商品</span>
-            <span>合计 ¥{{ orderData.pay_fee }}</span>
+            <span>合计 ${{ orderData.pay_fee }}</span>
           </view>
           <view class="ss-flex ss-row-right ss-m-t-8">
             <span class="status">{{ orderData.status_text }}</span>

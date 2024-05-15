@@ -364,7 +364,7 @@
     },
     priceUnit: {
       type: String,
-      default: '￥',
+      default: '$',
     },
     subTitleColor: {
       type: String,

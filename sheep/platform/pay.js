@@ -174,7 +174,7 @@ export default class SheepPay {
       provider: 'wxpay',
       timeStamp: payConfig.timeStamp,
       nonceStr: payConfig.nonceStr,
-      package: payConfig.packageValue,
+      package: payConfig.package,
       signType: payConfig.signType,
       paySign: payConfig.paySign,
       success: (res) => {

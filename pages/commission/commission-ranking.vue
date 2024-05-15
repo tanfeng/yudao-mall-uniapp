@@ -31,7 +31,7 @@
 							</view>
 							<view class="text line1">{{ item.nickname }}</view>
 						</view>
-						<view class="people font-color">￥{{ fen2yuan(item.brokeragePrice) }}</view>
+						<view class="people font-color">${{ fen2yuan(item.brokeragePrice) }}</view>
 					</view>
 				</view>
 				<view class="noCommodity"

@@ -25,7 +25,7 @@
             <view v-if="item.activity_type === 'full_reduce'">
               满{{ item.discount_rule.full }}减{{ item.discount_rule.discount }},已减
             </view>
-            <view class="price-text">￥{{ item.promo_discount_money || '0.00' }}</view>
+            <view class="price-text">${{ item.promo_discount_money || '0.00' }}</view>
           </view>
           <scroll-view class="scroll-box" scroll-x scroll-anchoring>
             <view class="ss-flex">

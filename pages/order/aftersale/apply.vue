@@ -38,7 +38,7 @@
       <view class="refund-item ss-flex ss-col-center ss-row-between" @tap="state.showModal = true">
         <text class="item-title">退款金额</text>
         <view class="ss-flex refund-cause ss-col-center">
-          <text class="ss-m-r-20">￥{{ fen2yuan(state.item.payPrice) }}</text>
+          <text class="ss-m-r-20">${{ fen2yuan(state.item.payPrice) }}</text>
         </view>
       </view>
       <!-- 申请原因 -->

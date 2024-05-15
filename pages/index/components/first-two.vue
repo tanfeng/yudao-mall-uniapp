@@ -9,7 +9,7 @@
           </view>
           <view class="goods-content">
             <view class="goods-title ss-line-1 ss-m-b-28">{{ item.title }}</view>
-            <view class="goods-price">￥{{ fen2yuan(item.price) }}</view>
+            <view class="goods-price">${{ fen2yuan(item.price) }}</view>
           </view>
         </view>
       </view>

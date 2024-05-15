@@ -304,7 +304,7 @@
         font-family: OPPOSANS;
 
         &::before {
-          content: '￥';
+          content: '$';
           font-size: 30rpx;
         }
       }
@@ -321,7 +321,7 @@
         font-family: OPPOSANS;
 
         &::before {
-          content: '￥';
+          content: '$';
         }
       }
     }
@@ -455,7 +455,7 @@
       font-family: OPPOSANS;
 
       &::before {
-        content: '￥';
+        content: '$';
       }
     }
     .more-item-box {

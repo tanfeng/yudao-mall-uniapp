@@ -27,7 +27,7 @@
 					<view class="ss-flex ss-col-center">
 						<view class="discounts-title pay-color">共 {{ order.productCount }} 件商品,总金额:</view>
 						<view class="discounts-money pay-color">
-							￥{{ fen2yuan(order.payPrice) }}
+							${{ fen2yuan(order.payPrice) }}
             </view>
 					</view>
 				</view>

@@ -42,7 +42,7 @@
           <view class="item-title">商品金额</view>
           <view class="ss-flex ss-col-center">
             <text class="item-value ss-m-r-24">
-              ￥{{ fen2yuan(state.orderInfo.price.totalPrice) }}
+              ${{ fen2yuan(state.orderInfo.price.totalPrice) }}
             </text>
           </view>
         </view>
@@ -64,7 +64,7 @@
           <view class="item-title">运费</view>
           <view class="ss-flex ss-col-center">
             <text class="item-value ss-m-r-24">
-              +￥{{ fen2yuan(state.orderInfo.price.deliveryPrice) }}
+              +${{ fen2yuan(state.orderInfo.price.deliveryPrice) }}
             </text>
           </view>
         </view>
@@ -76,7 +76,7 @@
           <view class="item-title">优惠券</view>
           <view class="ss-flex ss-col-center" @tap="state.showCoupon = true">
             <text class="item-value text-red" v-if="state.orderPayload.couponId > 0">
-              -￥{{ fen2yuan(state.orderInfo.price.couponPrice) }}
+              -${{ fen2yuan(state.orderInfo.price.couponPrice) }}
             </text>
             <text
               class="item-value"
@@ -98,7 +98,7 @@
           <view class="ss-flex ss-col-center">
             <!--                @tap="state.showDiscount = true" TODO 芋艿：后续要把优惠信息打进去 -->
             <text class="item-value text-red">
-              -￥{{ fen2yuan(state.orderInfo.price.discountPrice) }}
+              -${{ fen2yuan(state.orderInfo.price.discountPrice) }}
             </text>
             <text class="_icon-forward item-icon" />
           </view>
@@ -110,7 +110,7 @@
           <view class="item-title">会员优惠</view>
           <view class="ss-flex ss-col-center">
             <text class="item-value text-red">
-              -￥{{ fen2yuan(state.orderInfo.price.vipPrice) }}
+              -${{ fen2yuan(state.orderInfo.price.vipPrice) }}
             </text>
           </view>
         </view>
@@ -120,7 +120,7 @@
           共{{ state.orderInfo.items.reduce((acc, item) => acc + item.count, 0) }}件
         </view>
         <view>合计：</view>
-        <view class="total-num text-red"> ￥{{ fen2yuan(state.orderInfo.price.payPrice) }} </view>
+        <view class="total-num text-red"> ${{ fen2yuan(state.orderInfo.price.payPrice) }} </view>
       </view>
     </view>
 
@@ -144,7 +144,7 @@
       <view class="footer-box border-top ss-flex ss-row-between ss-p-x-20 ss-col-center">
         <view class="total-box-footer ss-flex ss-col-center">
           <view class="total-num ss-font-30 text-red">
-            ￥{{ fen2yuan(state.orderInfo.price.payPrice) }}
+            ${{ fen2yuan(state.orderInfo.price.payPrice) }}
           </view>
         </view>
         <button

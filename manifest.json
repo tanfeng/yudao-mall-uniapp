@@ -98,7 +98,7 @@
         "oauth": {
           "apple": {},
           "weixin": {
-            "appid": "wxae7a0c156da9383b",
+            "appid": "wxd521a4e3522e50f0",
             "UniversalLinks": "https://shopro.sheepjs.com/uni-universallinks/__UNI__082C0BA/"
           }
         },
@@ -108,7 +108,7 @@
               "ios",
               "android"
             ],
-            "appid": "wxae7a0c156da9383b",
+            "appid": "wxd521a4e3522e50f0",
             "UniversalLinks": "https://shopro.sheepjs.com/uni-universallinks/__UNI__082C0BA/"
           },
           "alipay": {
@@ -120,7 +120,7 @@
         },
         "share": {
           "weixin": {
-            "appid": "wxae7a0c156da9383b",
+            "appid": "wxd521a4e3522e50f0",
             "UniversalLinks": "https://shopro.sheepjs.com/uni-universallinks/__UNI__082C0BA/"
           }
         }

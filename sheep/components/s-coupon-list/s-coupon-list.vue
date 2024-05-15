@@ -20,7 +20,7 @@
               class="ss-flex ss-col-bottom"
               :class="isDisable ? 'disabled-color' : 'price-text'"
             >
-              <view class="value-reduce ss-m-b-10" v-if="data.discountType === 1">￥</view>
+              <view class="value-reduce ss-m-b-10" v-if="data.discountType === 1">$</view>
               <view class="value-price">
                 {{
                   data.discountType === 1

@@ -44,7 +44,7 @@
 			<!-- 退款金额 -->
 			<view class="aftersale-money ss-flex ss-col-center ss-row-between">
 				<view class="aftersale-money--title">退款总额</view>
-				<view class="aftersale-money--num">￥{{ fen2yuan(state.info.refundPrice) }}</view>
+				<view class="aftersale-money--num">${{ fen2yuan(state.info.refundPrice) }}</view>
 			</view>
 			<!-- 服务商品 -->
 			<view class="order-shop">

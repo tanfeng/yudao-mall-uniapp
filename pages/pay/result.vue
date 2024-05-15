@@ -19,7 +19,7 @@
       <view class="tip-text ss-m-b-30" v-if="payResult === 'closed'">该订单已关闭</view>
       <view class="tip-text ss-m-b-30" v-if="payResult === 'waiting'">检测支付结果...</view>
       <view class="pay-total-num ss-flex" v-if="payResult === 'success'">
-        <view>￥{{ fen2yuan(state.orderInfo.price) }}</view>
+        <view>${{ fen2yuan(state.orderInfo.price) }}</view>
       </view>
 
       <!-- 操作区 -->

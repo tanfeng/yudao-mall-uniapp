@@ -309,7 +309,7 @@
       font-family: OPPOSANS;
 
       &::before {
-        content: '￥';
+        content: '$';
       }
     }
   }
@@ -327,7 +327,7 @@
       font-family: OPPOSANS;
 
       &::before {
-        content: '￥';
+        content: '$';
       }
     }
 
@@ -412,7 +412,7 @@
         font-family: OPPOSANS;
 
         &::before {
-          content: '￥';
+          content: '$';
           font-size: 24rpx;
         }
       }

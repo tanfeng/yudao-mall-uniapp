@@ -26,7 +26,7 @@
               :style="[{ color: priceColor }]"
               v-if="price && Number(price) > 0"
             >
-              ￥{{ fen2yuan(price) }}
+              ${{ fen2yuan(price) }}
             </view>
             <view v-if="num" class="total-text ss-flex ss-col-center">x {{ num }}</view>
             <slot name="priceSuffix"></slot>

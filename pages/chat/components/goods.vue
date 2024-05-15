@@ -9,7 +9,7 @@
         {{ goodsData.subtitle }}
       </view>
       <view class="price ss-m-t-8">
-        ￥{{ isArray(goodsData.price) ? goodsData.price[0] : goodsData.price }}
+        ${{ isArray(goodsData.price) ? goodsData.price[0] : goodsData.price }}
       </view>
     </view>
   </view>

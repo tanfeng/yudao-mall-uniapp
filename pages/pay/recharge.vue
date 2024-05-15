@@ -19,7 +19,7 @@
 			<view class="recharge-card-box">
 				<view class="input-label ss-m-b-50">充值金额</view>
 				<view class="input-box ss-flex border-bottom ss-p-b-20">
-					<view class="unit">￥</view>
+					<view class="unit">$</view>
 					<uni-easyinput v-model="state.recharge_money" type="digit" placeholder="请输入充值金额"
                          :inputBorder="false" />
 				</view>

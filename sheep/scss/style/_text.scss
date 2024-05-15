@@ -90,7 +90,7 @@
     color: inherit !important;
   }
   &-price::before {
-    content: '¥';
+    content: '$';
     font-size: 80%;
     margin-right: 4rpx;
   }

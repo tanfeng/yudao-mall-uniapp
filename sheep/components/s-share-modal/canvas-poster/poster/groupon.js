@@ -61,7 +61,7 @@ const groupon = (poster) => {
       {
         name: 'goodsPrice',
         type: 'text',
-        val: '￥' + poster.shareInfo.poster.price,
+        val: '$' + poster.shareInfo.poster.price,
         x: width * 0.04,
         y: width * 1.3,
         paintbrushProps: {

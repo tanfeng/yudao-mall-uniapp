@@ -52,8 +52,8 @@
 
 				<view class="total-box">
           <!-- TODO 芋艿：这里暂时不考虑做 -->
-					<!-- <view class="ss-m-b-10">总收入￥{{ state.pagination.income.toFixed(2) }}</view> -->
-					<!-- <view>总支出￥{{ (-state.pagination.expense).toFixed(2) }}</view> -->
+					<!-- <view class="ss-m-b-10">总收入${{ state.pagination.income.toFixed(2) }}</view> -->
+					<!-- <view>总支出${{ (-state.pagination.expense).toFixed(2) }}</view> -->
 				</view>
 			</view>
 			<su-tabs :list="tabMaps" @change="onChangeTab" :scrollable="false" :current="state.currentTab" />
@@ -66,7 +66,7 @@
 				<view class="model-title ss-m-b-30 ss-m-l-20">转余额</view>
 				<view class="model-subtitle ss-m-b-100 ss-m-l-20">将您的佣金转到余额中继续消费</view>
 				<view class="input-box ss-flex ss-col-center border-bottom ss-m-b-70 ss-m-x-20">
-					<view class="unit">￥</view>
+					<view class="unit">$</view>
 					<uni-easyinput :inputBorder="false" class="ss-flex-1 ss-p-l-10" v-model="state.price" type="number"
                          placeholder="请输入金额" />
 				</view>

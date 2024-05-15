@@ -31,8 +31,8 @@
           </button>
         </uni-datetime-picker>
         <view class="total-box">
-          <view class="ss-m-b-10">总收入￥{{ fen2yuan(state.summary.totalIncome) }}</view>
-          <view>总支出￥{{ fen2yuan(state.summary.totalExpense) }}</view>
+          <view class="ss-m-b-10">总收入${{ fen2yuan(state.summary.totalIncome) }}</view>
+          <view>总支出${{ fen2yuan(state.summary.totalExpense) }}</view>
         </view>
       </view>
       <su-tabs

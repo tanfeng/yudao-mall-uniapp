@@ -313,7 +313,7 @@
         font-family: OPPOSANS;
 
         &::before {
-          content: '￥';
+          content: '$';
           font-size: 22rpx;
         }
       }

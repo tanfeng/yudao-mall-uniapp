@@ -35,7 +35,7 @@
       <!-- 提现金额 -->
       <view class="card-title">提现金额</view>
       <view class="input-box ss-flex ss-col-center border-bottom">
-        <view class="unit">￥</view>
+        <view class="unit">$</view>
         <uni-easyinput
           :inputBorder="false"
           class="ss-flex-1 ss-p-l-10"
@@ -129,7 +129,7 @@
       <view class="title ss-m-b-30">提现说明</view>
       <view class="draw-list"> 最低提现金额 {{ fen2yuan(state.minPrice) }} 元 </view>
       <view class="draw-list">
-        冻结佣金：<text>￥{{ fen2yuan(state.brokerageInfo.frozenPrice) }}</text>
+        冻结佣金：<text>${{ fen2yuan(state.brokerageInfo.frozenPrice) }}</text>
         （每笔佣金的冻结期为 {{ state.frozenDays }} 天，到期后可提现）
       </view>
     </view>

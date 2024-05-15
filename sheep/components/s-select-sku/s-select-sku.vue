@@ -355,7 +355,7 @@
 				font-family: OPPOSANS;
 
 				&::before {
-					content: '￥';
+					content: '$';
 					font-size: 30rpx;
 					font-weight: 500;
 					color: $red;
