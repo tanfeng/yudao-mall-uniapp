@@ -71,7 +71,7 @@
       <view class="order-list" v-for="item in state.orderInfo.items" :key="item.goods_id">
         <view class="order-card">
           <s-goods-item
-            @tap="onGoodsDetail(item.skuId)"
+            @tap="onGoodsDetail(item.spuId)"
             :img="item.picUrl"
             :title="item.spuName"
             :skuText="item.properties.map((property) => property.valueName).join(' ')"
@@ -211,13 +211,12 @@
         >
           继续支付
         </button>
-        <!-- TODO 芋艿：拼团接入 -->
         <button
           class="ss-reset-button cancel-btn"
           v-if="state.orderInfo.buttons?.includes('combination')"
           @tap="
             sheep.$router.go('/pages/activity/groupon/detail', {
-              id: state.orderInfo.ext.groupon_id,
+              id: state.orderInfo.combinationRecordId,
             })
           "
         >
